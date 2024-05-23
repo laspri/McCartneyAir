@@ -5,7 +5,7 @@ import Header from "./Divs/Header.js";
 import Bottom from "./Divs/Bottom.js";
 
 function Main() {
-    const [aqi, setAQI] = useState([]);
+    const [aqi, setAQI] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -26,7 +26,7 @@ function Main() {
 
     return (
         <div className="flex flex-col w-full items-center">
-            <div className='flex flex-col h-full w-full md:max-w-lg relative items-center gap-8 content-center'>
+            <div className='flex flex-col h-full w-full md:max-w-lg relative items-center gap-8 content-center mb-8'>
                 <Header aqi={aqi} error={error} loading={loading}/>
                 <Bottom aqi={aqi} error={error} loading={loading}/>
             </div>

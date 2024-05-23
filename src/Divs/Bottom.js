@@ -26,7 +26,7 @@ const list = [
         name: 'IDEAM',
         url: 'http://www.ideam.gov.co/web/contaminacion-y-calidad-ambiental',
         desc: 'Información detallada y actualizada sobre los niveles de contaminación en Colombia, la calidad del aire, el agua y el suelo, y las políticas ambientales del país.',
-        image: 'http://www.ideam.gov.co/image/company_logo?img_id=12635&t=1635376267670',
+        image: 'https://media.licdn.com/dms/image/D4E0BAQE6vJAHW6JVvA/company-logo_200_200/0/1685203238626?e=2147483647&v=beta&t=bktS7J8p3MGUFxmLwvJOT1WE3tE9yHOwObB7gaMxik0',
     },
 ]
 function Bottom({aqi, error, loading}) {
